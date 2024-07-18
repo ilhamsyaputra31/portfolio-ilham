@@ -1,6 +1,6 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/kk.png";
+import IMG1 from "../../assets/viewin.png";
 import IMG2 from "../../assets/nn.png";
 import IMG3 from "../../assets/sumbawa.png";
 
@@ -11,12 +11,12 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Simple Web Using HTML and CSS",
+      title: "Simple Web React js and Tailwind CSS",
       img: IMG1,
-      description: "This is my first web hosted",
-      technologies: "Html | CSS | Javascript",
-      link: "https://nine2one-921.netlify.app/",
-      github: "#",
+      description: "Website ini di bangun menggunakan vite react js dan tailwind css",
+      technologies: "React JS | Tailwind CSS",
+      link: "https://viewin-green.vercel.app/",
+      github: "https://github.com/ilhamsyaputra31/Viewin",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Portfolio = () => {
       id: 3,
       title: "website SIG Pariwisata Sumbawa",
       img: IMG3,
-      description: "Website ini di bangun menggunkan laravel ",
+      description: "Website wisata sumbawa yang bertujuan untuk mengembangkan pariwisata sumbawa",
       technologies: "Laravel | Mysql | Javascript",
       link: "#",
       github: "https://github.com/ilhamsyaputra31/SIG-PariwisataSumbawa-Laravel",
@@ -41,7 +41,6 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">

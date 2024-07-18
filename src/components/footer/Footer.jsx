@@ -38,9 +38,6 @@ const Footer = () => {
           <FaGithub />
         </a>
       </div>
-      {/* <div className="footer__copyright">
-        <small>&copy; ET 2022. All rights reserved.</small>
-      </div> */}
     </footer>
   );
 };
