@@ -2,6 +2,7 @@ import "./portfolio.css";
 
 import IMG1 from "../../assets/kk.png";
 import IMG2 from "../../assets/nn.png";
+import IMG3 from "../../assets/sumbawa.png";
 
 import React from "react";
 
@@ -24,9 +25,18 @@ const Portfolio = () => {
       description: "Website ini di bangun menggunkan laravel dan sudah berbentuk SaaS",
       technologies: "Laravel | Mysql | Javascript",
       link: "https://rentalhub.site/",
-      github: "https://github.com/ilhamsyaputra31/Website-laravel", 
+      github: "https://github.com/ilhamsyaputra31/Website-laravel",
     },
-    
+    {
+      id: 3,
+      title: "website SIG Pariwisata Sumbawa",
+      img: IMG3,
+      description: "Website ini di bangun menggunkan laravel ",
+      technologies: "Laravel | Mysql | Javascript",
+      link: "#",
+      github: "https://github.com/ilhamsyaputra31/SIG-PariwisataSumbawa-Laravel",
+    },
+
   ];
 
   return (
@@ -52,7 +62,7 @@ const Portfolio = () => {
                 className="btn"
                 rel="noreferrer"
               >
-                GitHub  
+                GitHub
               </a>
               <a
                 href={pro.link}
