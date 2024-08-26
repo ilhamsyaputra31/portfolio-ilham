@@ -5,11 +5,15 @@
 }
 
 .portfolio__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: 100%;
 }
 
 .portfolio__item:hover {
@@ -32,14 +36,14 @@
     font-size: 0.9rem;
 }
 
+.portfolio__item-content {
+    flex-grow: 1;
+}
+
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem; 
-}
-
-.portfolio__item-content {
-    height: 40%;
+    margin-top: auto; 
 }
 
 @media screen and (max-width: 1024px){

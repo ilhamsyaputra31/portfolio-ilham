@@ -31,8 +31,7 @@ const Intro = () => {
           </div>
           <p>
             Nama Saya Ilham Syaputra <br />
-            Saya adalah seorang programmer web junior, saya menguasai beberapa
-            bahasa pemrograman seperti React JS, Laravel dan Codeigneter 3
+            Saya adalah adalah seorang Software Engineer yang bersemangat dengan keahlian dalam berbagai framework JavaScript dan PHP, termasuk React.js, CodeIgniter, dan Laravel. Keterampilan teknis yang saya milik telah memungkinkan saya untuk sukses mengerjakan berbagai proyek, menunjukkan kemampuan saya dalam membangun dan mengembangkan aplikasi dinamis. Antusiasme saya terhadap teknologi mendorong saya untuk terus mengeksplorasi dan berinovasi di bidang ini, menjadikannya aset berharga di lingkungan yang berfokus pada teknologi.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
